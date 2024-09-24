@@ -74,7 +74,7 @@ pycryptodome==3.20.0
 Pygments==2.16.1
 pyparsing==3.0.9
 python-dateutil==2.8.2
-python-version==0.0.2
+python-version==3.7
 pytz==2022.7
 pyzmq==25.1.1
 requests==2.28.2
