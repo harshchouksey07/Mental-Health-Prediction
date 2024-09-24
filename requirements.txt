@@ -1,9 +1,9 @@
-﻿absl-py==1.4.0
-asgiref==3.8.1
-asttokens==2.4.0
-astunparse==1.6.3
-backcall==0.2.0
-blinker==1.7.0
+﻿absl-py
+asgiref
+asttokens
+astunparse
+backcall
+blinker
 cachetools==5.3.0
 certifi==2022.12.7
 charset-normalizer==3.0.1
