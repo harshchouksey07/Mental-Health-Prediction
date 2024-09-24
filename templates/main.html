@@ -1,0 +1,43 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Heal Together</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'static\mainm.css' %}">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+    {% include "header.html" %}
+
+    <main>
+      <section class="left-sec">
+        <h2> “You are not alone. You are seen”</h2>
+        <h1> Every mind matters</h1>
+        <p>
+          With modern technology and machine learning model we help students to know their current mental health and
+          providing solution for their mental
+          well being.
+        </p>
+        <a href="/test/">
+          <button>
+            Take a free Test
+          </button>
+        </a>
+      </section>
+
+      <section class="right-sec">
+        <figure>
+          <img src="static\photo.png">
+        </figure>
+      </section>
+    </main>
+  </header>
+  {% include "footer.html" %}
+</body>
+
+</html>

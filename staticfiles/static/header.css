@@ -1,0 +1,83 @@
+.mainheader {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.mainheader .logo img {
+    width: 280px;
+    height: 170px;
+    padding-left: 60px;
+    margin: auto;
+}
+
+.mainheader nav {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.mainheader nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    /* margin: 20px; */
+}
+
+.menubtn1 {
+    margin-left: 250px;
+    margin-right: 35px;
+}
+
+.menubtn1:active {
+    transform: scale(0.96);
+}
+
+.menubtn1:hover {
+    transform: scale(0.96);
+    color: black;
+}
+.menubtn2 {
+    margin-right: 6px;
+    float:right;
+    /* margin-left: 280px; */
+}
+.menubtn2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.menubtn2 a:active {
+    transform: scale(0.96);
+}
+
+.menubtn2 a:hover {
+    transform: scale(0.96);
+    color: black;
+}
+#btn{
+    float: right;
+}
+.mainheader button {
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(to right, #649bff, #0070fa, #649bff);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.mainheader button:active {
+    transform: scale(0.96);
+}
+
+.mainheader button:hover {
+    transform: scale(0.96);
+    color: black;
+}
